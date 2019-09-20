@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ImageViewRatio">
+        <attr name="ratio" format="float" />
+        <attr name="round_rect_radius" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="MyTextViewKey">
+        <attr name="key" format="string" />
+    </declare-styleable>
+
+
+    <declare-styleable name="FocusImageView">
+        <attr name="focus_focusing_id" format="integer" />
+        <attr name="focus_success_id" format="integer" />
+        <attr name="focus_fail_id" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="PagerDotView">
+        <attr name="selectedPageDotColor" format="integer" />
+        <attr name="otherPageDotColor" format="integer" />
+        <attr name="totalPage" format="integer" />
+        <attr name="direction" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundRectImageView">
+        <attr name="round_radius" format="integer" />
+        <attr name="only_top_round" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundRectCoverView">
+        <attr name="cover_round_radius" format="integer" />
+        <attr name="cover_color" format="integer" />
+        <attr name="corner_color" format="integer" />
+        <attr name="type" format="integer" />
+        <attr name="stroke_color" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="LikeOrNotView">
+        <attr name="style_stratified" format="boolean" />
+        <attr name="style_rotatable" format="boolean" />
+        <attr name="drag_scale" format="float" />
+        <attr name="move_multiplier" format="integer" />
+        <attr name="rotation_direction" format="enum">
+            <enum name="clockwise" value="0" />
+            <enum name="anticlockwise" value="1" />
+        </attr>
+        <attr name="rotation_range" format="float" />
+        <attr name="animator_duration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="DiffuseView">
+        <attr name="diffuse_color" format="color"/>
+        <attr name="diffuse_coreColor" format="color"/>
+        <attr name="diffuse_coreRadius" format="float"/>
+        <attr name="diffuse_width" format="integer"/>
+        <attr name="diffuse_maxWidth" format="integer"/>
+        <attr name="diffuse_speed" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="RangeSeekBar">
+        <attr name="absoluteMinValue" format="integer|float"/>
+        <attr name="absoluteMaxValue" format="integer|float"/>
+        <attr name="singleThumb" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="CardStack">
+        <!--卡片背景颜色-->
+        <attr name="card_backgroundColor" format="color"/>
+        <!-- 显示的卡片数量-->
+        <attr name="card_stack_size" format="integer"/>
+        <!--是否无限循环卡片模式-->
+        <attr name="card_enable_loop" format="boolean"/>
+        <!--卡片之间的间距-->
+        <attr name="card_margin" format="dimension"/>
+        <!--卡片拖动时是否跟着旋转-->
+        <attr name="card_enable_rotation" format="boolean"/>
+        <!--卡片方向：向上、向下-->
+        <attr name="card_gravity">
+            <enum name="top" value="48"/>
+            <enum name="bottom" value="80"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

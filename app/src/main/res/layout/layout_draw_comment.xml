@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+
+    <RelativeLayout
+        android:id="@+id/drawCommentViews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ivCommentsView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rlDrawWaterMarkView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.hzf.demo.view.ShowPicTextView
+            android:id="@+id/showPicTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.hzf.demo.view.WarterMarkParentView
+            android:id="@+id/strickerParentView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.hzf.demo.view.WarterMarkParentView>
+
+
+        <com.hzf.demo.view.DrawView
+            android:id="@+id/drawView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+
+        <com.hzf.demo.view.WarterMarkParentView
+            android:id="@+id/warterMarkParentView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.hzf.demo.view.WarterMarkParentView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/topView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="7dp">
+
+        <ImageButton
+            android:id="@+id/btnClose"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/edit_close" />
+
+        <LinearLayout
+            android:id="@+id/llSelectPenWidth"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_toLeftOf="@+id/ll"
+            android:layout_toRightOf="@id/btnClose"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <com.hzf.demo.view.SelectPenWidthView
+                android:id="@+id/penWidth_8"
+                android:layout_width="30dp"
+                android:layout_height="44dp" />
+
+            <com.hzf.demo.view.SelectPenWidthView
+                android:id="@+id/penWidth_12"
+                android:layout_width="35dp"
+                android:layout_height="44dp" />
+
+            <com.hzf.demo.view.SelectPenWidthView
+                android:id="@+id/penWidth_16"
+                android:layout_width="40dp"
+                android:layout_height="44dp" />
+
+            <com.hzf.demo.view.SelectPenWidthView
+                android:id="@+id/penWidth_20"
+                android:layout_width="44dp"
+                android:layout_height="44dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnSticker"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginRight="7dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/edit_sticker" />
+
+            <RelativeLayout
+                android:id="@+id/reGlowPen"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginRight="7dp"
+                android:visibility="gone">
+
+                <View
+                    android:id="@+id/btnGlowPenBg"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/btn_pen_bg"
+                    android:src="@drawable/edit_glow_pen"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/btnGlowPen"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/edit_glow_pen" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/reDraw"
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="7dp">
+
+                <RelativeLayout
+                    android:id="@+id/rePen"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp">
+
+                    <View
+                        android:id="@+id/btnPenBg"
+                        android:layout_width="44dp"
+                        android:layout_height="44dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/btn_pen_bg"
+                        android:src="@drawable/edit_pen"
+                        android:visibility="gone" />
+
+                    <ImageButton
+                        android:id="@+id/btnPen"
+                        android:layout_width="44dp"
+                        android:layout_height="44dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/edit_pen" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/rlDrawColor"
+                    android:layout_width="44dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rePen"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/ivColor"
+                        android:layout_width="44dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/edit_color_area_inside" />
+
+                    <ImageView
+                        android:id="@+id/ivColorBg"
+                        android:layout_width="44dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/edit_color_area" />
+
+                    <ImageView
+                        android:id="@+id/btnRemove"
+                        android:layout_width="44dp"
+                        android:layout_height="44dp"
+                        android:layout_below="@id/ivColorBg"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/edit_return" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/reText"
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="7dp">
+
+                <ImageButton
+                    android:id="@+id/btnWartMark"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/edit_water_mark" />
+
+                <ImageView
+                    android:id="@+id/ivTextColor"
+                    android:layout_width="44dp"
+                    android:layout_height="180dp"
+                    android:layout_below="@id/btnWartMark"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/edit_color_area_inside"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/ivTextColorBg"
+                    android:layout_width="44dp"
+                    android:layout_height="180dp"
+                    android:layout_below="@id/btnWartMark"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/edit_color_area"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlCoverView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone">
+
+
+        <ImageButton
+            android:id="@+id/btnWartMarkCoverView"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="7dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/edit_water_mark" />
+
+        <ImageButton
+            android:id="@+id/btnPenCoverView"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginRight="7dp"
+            android:layout_toLeftOf="@id/btnWartMarkCoverView"
+            android:background="@android:color/transparent"
+            android:src="@drawable/edit_pen" />
+
+        <ImageButton
+            android:id="@+id/btnStickerCoverView"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginRight="7dp"
+            android:layout_toLeftOf="@id/btnPenCoverView"
+            android:background="@android:color/transparent"
+            android:src="@drawable/edit_sticker"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/emoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#70000000"
+        android:visibility="gone">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/stickerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="73dp" />
+
+        <LinearLayout
+            android:id="@+id/bootLayout"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/downside_shadow"
+            android:orientation="horizontal"></LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/postEditView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#70000000"
+        android:paddingLeft="21dp"
+        android:paddingTop="18dp"
+        android:paddingRight="21dp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/etPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:clickable="true"
+            android:dropDownWidth="match_parent"
+            android:gravity="left|top"
+            android:hint="You can write text here..."
+            android:imeOptions="actionDone"
+            android:maxLines="5"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</RelativeLayout>

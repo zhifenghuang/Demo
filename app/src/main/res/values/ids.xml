@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <item type="id" name="drag_handle" />
+    <item type="id" name="click_remove" />
+
+    <item type="id" name="last_selected_view" />
+    
+    <item type="id" name="tv_title_id" />
+    <item type="id" name="img_checked_id"/>
+
+    <item type="id" name="rect_view"/>
+
+    <item type="id" name="post_bean"/>
+    <item type="id" name="media_info"/>
+    <item type="id" name="tag"/>
+     
+    
+</resources>

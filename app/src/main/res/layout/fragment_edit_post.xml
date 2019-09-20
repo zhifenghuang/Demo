@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <com.hzf.demo.view.GLShaderJNIView
+        android:id="@+id/glView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.hzf.demo.view.HandleRelativeLayout
+        android:id="@+id/handleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+        <com.hzf.demo.view.CustomViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+    </com.hzf.demo.view.HandleRelativeLayout>
+
+
+    <com.hzf.demo.view.DrawCommentView
+        android:id="@+id/drawCommentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.hzf.demo.view.DrawCommentView>
+
+
+    <ImageView
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/edit_save" />
+
+
+</RelativeLayout>

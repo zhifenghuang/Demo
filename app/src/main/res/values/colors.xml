@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="half_transparent">#A0000000</color>
+    <color name="half_blue">#800000ff</color>
+    <color name="half_half_transparent">#50000000</color>
+
+    <color name="half_white">#eeffffff</color>
+    <color name="half_half_white">#50ffffff</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="comment_text_title">#8E4217</color>
+    <color name="comment_text_content">#5A5A5A</color>
+    <color name="comment_line">#E6E6E6</color>
+    <color name="comment_text_time">#8C8C8C</color>
+    <color name="comment_button_background">#4FBC45</color>
+
+    <color name="color_RoseRed">#EC2856</color>
+    <color name="color_lightPink_BtnHighlight">#F9BECC</color>
+    <color name="color_lightGray_204_204_204">#CCCCCC</color>
+    <color name="color_Gray_153_153_153">#999999</color>
+    <color name="hashtag_des_gray">#828282</color>
+    <color name="color_Gray_200_200_200">#C8C8C8</color>
+
+    <color name="edittext_membership_background_Yellow">#FFF8DC</color>
+    <color name="button_membership_background_Green">#58EBA9</color>
+
+    <color name="graytext">#999999</color>
+    <color name="hint_edit">#cccccc</color>
+    <color name="gray_profile_text_1">#E3E3E3</color>
+
+    <color name="color_Gray_232_232_232">#E8E8E8</color>
+
+    <color name="blue">#0000ff</color>
+    <color name="gray">#cccccc</color>
+
+    <color name="color_dc_dc_dc">#dcdcdc</color>
+
+    <color name="color_Red_175_113_111">#AF716F</color>
+    <color name="color_Gray_248_248_248">#F8F8F8</color>
+    <color name="color_Yellow_255_181_45">#FFB52D</color>
+
+
+    <color name="popupView_btn_highLightRed">#C1272D</color>
+    <color name="listView_likers_btn_on_title">#FFFFFF</color>
+    <color name="listView_likers_btn_off_title">#8C8C8C</color>
+
+    <color name="text_restaurant_name">#FF963C</color>
+    <color name="text_link_enable">#8E4217</color>
+    <color name="text_link_disable">#5A5A5A</color>
+    <color name="text_home_page_gray">#B5B5B6</color>
+    <color name="bg_gray">#f0f0f0</color>
+    <color name="text_edit">#5a5a5a</color>
+
+    <color name="color_170_170_170">#aaaaaa</color>
+    <color name="color_85_85_85">#555555</color>
+    <color name="color_232_232_232">#e8e8e8</color>
+    <color name="color_0_221_255">#00ddff</color>
+    <color name="color_45_223_227">#2ddfe3</color>
+    <color name="color_187_187_187">#b1b1b1</color>
+    <color name="color_119_119_119">#777777</color>
+    <color name="color_232_235_238">#e8ebee</color>
+    <color name="color_250_250_250">#fafafa</color>
+    <color name="color_142_153_168">#8E99A8</color>
+    <color name="color_231_231_231">#E7E7E7</color>
+    <color name="color_88_89_91">#58595B</color>
+    <color name="color_255_255_255">#FFFFFF</color>
+    <color name="color_226_45_45">#e22d2d</color>
+    <color name="color_0_183_183">#00b7b7</color>
+    <color name="color_153_153_153">#999999</color>
+    <color name="color_59_89_152">#195998</color>
+    <color name="color_63_114_155">#3F729B</color>
+    <color name="color_248_248_248">#f8f8f8</color>
+    <color name="color_34_223_227">#22dfe3</color>
+    <color name="color_34_166_166">#22a6a6</color>
+    <color name="color_221_221_221">#dddddd</color>
+
+    <color name="color_255_186_0">#ffba00</color>
+    <color name="color_255_143_51">#ff8f33</color>
+    <color name="color_65_116_232">#4174e8</color>
+    <color name="color_160_255_143_51">#a0ff8f33</color>
+
+    <color name="color_half_255_255_255">#DEFFFFFF</color>
+    <color name="color_201_201_201">#C9C9C9</color>
+    <color name="color_0_0_255">#0000FF</color>
+    <color name="color_180_180_255">#B4B4FF</color>
+    <color name="color_77_226_226">#4DE2E2</color>
+    <color name="color_30_185_187">#1eb9bb</color>
+
+    <color name="color_247_147_30">#f7931e</color>
+
+    <color name="alpha_25_white">#50ffffff</color>
+
+    <color name="color_74_74_74">#4A4A4A</color>
+    <color name="color_167_167_167">#A7A7A7</color>
+
+    <color name="color_1e_1e_1e">#1E1E1E</color>
+    <color name="color_eb_eb_eb">#EBEBEB</color>
+    <color name="color_2d_df_e3">#2DDFE3</color>
+    <color name="color_7b_7b_7b">#7B7B7B</color>
+</resources>
